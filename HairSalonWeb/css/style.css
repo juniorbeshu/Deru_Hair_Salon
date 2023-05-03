@@ -173,16 +173,28 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 87vh;
   position: relative;
-  background: url("../img/intro-carousel/1.jpg") no-repeat;
+  background: url("../img/intro-carousel/p1.jpg") no-repeat;
   background-size: contain;
 }
 
+#intro .col-sm-4 {
+  margin-top: 300px;
+  margin-left: 100px;
+}
+/*.item {
+background: url("../img/intro-carousel/model-1.png") no-repeat;
+  margin-top: 30px;
+  float: right;
+  margin-right: 90px;
+  width: 50%;
+  height: 100%;
+}*/
 #intro .intro-content {
   position: absolute;
   bottom: 0;
   top: 0;
-  right: 0;
-  left: 14%;
+  right: 0%;
+  left: 4%;
   z-index: 10;
   display: flex;
   justify-content: center;
@@ -198,14 +210,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #c802a0;
-  text-align: right;
+  color: #e68a00;
+  text-align: left;
   font-size: 40px;
   text-transform: uppercase;
   font-weight: bold;
 }
 li.menu-active a {
-    background: #c802a0;
+    background: #e68a00;
     color: #0b111f !important;
     border-radius: 5px 0 5px;
 }
@@ -233,7 +245,7 @@ li.menu-active a {
 }
 
 #intro .intro-content .btn-get-started {
-  background: #c802a0;
+  background: #e68a00;
   border: 2px solid #c802a0;
   border-radius: 5px 0 5px;
   margin: 0;
@@ -565,7 +577,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img img {
-  margin-left: -15px;
+  padding-left: 55px;
+  margin-left: 70px;
   max-width: 100%;
 }
 
@@ -574,12 +587,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: auto;
   }
   #about .about-img img {
-    margin-left: 0;
+    margin-right: 0;
     padding-bottom: 30px;
   }
 }
 
 #about .content h2 {
+  margin-right: 200px;
   color: #ffffff;
   font-weight: 700;
   font-size: 18px;
@@ -590,7 +604,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #d5d5d5;
   font-weight: 300;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 29px;
   font-style: italic;
 }
 
@@ -620,7 +634,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: #ce70bb;
+  background: #ffffff;
 }
 section#services h2, #services p {
     color: #0b111f;
@@ -663,7 +677,7 @@ section#services h2, #services p {
     text-align: center;
     color: #0b111f;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 80;
 }
 #services .box .icon i {
   color: #444;
@@ -974,61 +988,62 @@ p.help-block li {
 #team {
 }
 
-#team .member {
+.member {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
-#team .member .pic {
+.member .pic {
   overflow: hidden;
   text-align: center;
 }
 
-#team .member .pic img {
+.member .pic img {
   max-width: 100%;
   padding: 3px;
 }
 
-#team .member .details {
-  background: #242b3d;
+.member .details {
   color: #c802a0;
   padding: 15px 0;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 0px 0px;
 }
 
-#team .member h4 {
+.member h4 {
+  margin-left: 150px;
   font-weight: 700;
-  margin-bottom: 2px;
   font-size: 18px;
 }
 
-#team .member span {
+.member span {
+  margin-left: 150px;
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-#team .member .social {
+.member .social {
+  margin-left: 150px;
   margin-top: 5px;
   padding: 6px;
   text-align: center;
 }
 
-#team .member .social a {
+.member .social a {
   color: #ffffff;
   margin: 2px 6px;
   border: 1px solid #ffffff;
-  width: 42px;
+  width: 32px;
   display: inline-block;
   opacity: .4;
 }
-#team .member .social a:hover{
+.member .social a:hover{
   color: #c802a0;
   margin: 2px 6px;
   border: 1px solid #c802a0;
   opacity: 1;
 }
-#team .member .social i {
+.member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1277,13 +1292,15 @@ transition: all 0.4s ease-in-out;
   .col-sm-6 {
     width: 50%;
   }
+  
   #intro {
     width: 100%;
     height: 87vh;
     position: relative;
-    background: url(../img/intro-carousel/1.jpg) no-repeat;
+    background: url(../img/intro-carousel/p1.jpg) no-repeat;
     background-size: contain;
 }
+
 }
 @media (min-width: 900px) {
   .container {
@@ -1304,7 +1321,7 @@ transition: all 0.4s ease-in-out;
     width: 100%;
     height: 43vh;
     position: relative;
-    background: url(../img/intro-carousel/1.jpg) no-repeat;
+    background: url(../img/intro-carousel/p1.jpg) no-repeat;
     background-size: contain;
 }
 
