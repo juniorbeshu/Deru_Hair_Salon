@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   padding: 20px 0;
-  height: 84px;
+  height: 105px;
   transition: all 0.5s;
   z-index: 997;
   box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.06);
